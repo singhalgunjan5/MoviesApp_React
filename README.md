@@ -26,7 +26,10 @@ To get started, ensure you have Node.js and npm installed on your machine. You c
 - **Responsibility:** Displays the movie image.
 - **File:** `MovieImage.jsx`
 - **Context Usage:** Also utilizes the context provided by `MostPopularMovies` to access the movie image.
+- 
+### Output
 
+![Image](https://i.ibb.co/NsP3Xzg/Whats-App-Image-2024-02-14-at-01-31-55.jpg)
 ## Usage
 1. Clone the repository.
 2. Install dependencies using `npm install`.
