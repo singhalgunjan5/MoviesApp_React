@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react';
+// import{ MovieInfoContext } from './MovieInfo'; // Correct import path for default export
+
+import { MostPopularMoviesContext } from './MostPopularMovies';
 
 const MovieImage = () => {
-    
-  return (
-    <div>
-     
+    const { image } = useContext(MostPopularMoviesContext);
+    return (
+        <div>
+        <img src={image}></img>
+        </div>
+    );
+};
 
-    </div>
-  )
-}
-
-export default MovieImage
+export default MovieImage;
